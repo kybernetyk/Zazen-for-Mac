@@ -13,6 +13,10 @@
 		03C06C311410ED4100FE85B0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C2F1410ED4100FE85B0 /* Credits.rtf */; };
 		03C06C341410ED4100FE85B0 /* FXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C06C331410ED4100FE85B0 /* FXAppDelegate.m */; };
 		03C06C371410ED4100FE85B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C351410ED4100FE85B0 /* MainMenu.xib */; };
+		03C06C411410EDD700FE85B0 /* bell1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C3D1410EDD700FE85B0 /* bell1.aif */; };
+		03C06C421410EDD700FE85B0 /* high.aif in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C3E1410EDD700FE85B0 /* high.aif */; };
+		03C06C431410EDD700FE85B0 /* normal.aif in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C3F1410EDD700FE85B0 /* normal.aif */; };
+		03C06C441410EDD700FE85B0 /* reinsamba_gong.aif in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C401410EDD700FE85B0 /* reinsamba_gong.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,18 @@
 		03C06C231410ED4100FE85B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		03C06C241410ED4100FE85B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		03C06C251410ED4100FE85B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		03C06C281410ED4100FE85B0 /* zazen-Info.plist */ = {isa = PBXFileReference; path = "zazen-Info.plist"; sourceTree = "<group>"; };
+		03C06C281410ED4100FE85B0 /* zazen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zazen-Info.plist"; sourceTree = "<group>"; };
 		03C06C2A1410ED4100FE85B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03C06C2C1410ED4100FE85B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03C06C2E1410ED4100FE85B0 /* zazen-Prefix.pch */ = {isa = PBXFileReference; path = "zazen-Prefix.pch"; sourceTree = "<group>"; };
+		03C06C2E1410ED4100FE85B0 /* zazen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zazen-Prefix.pch"; sourceTree = "<group>"; };
 		03C06C301410ED4100FE85B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		03C06C321410ED4100FE85B0 /* FXAppDelegate.h */ = {isa = PBXFileReference; path = FXAppDelegate.h; sourceTree = "<group>"; };
+		03C06C321410ED4100FE85B0 /* FXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXAppDelegate.h; sourceTree = "<group>"; };
 		03C06C331410ED4100FE85B0 /* FXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXAppDelegate.m; sourceTree = "<group>"; };
 		03C06C361410ED4100FE85B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03C06C3D1410EDD700FE85B0 /* bell1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell1.aif; sourceTree = "<group>"; };
+		03C06C3E1410EDD700FE85B0 /* high.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = high.aif; sourceTree = "<group>"; };
+		03C06C3F1410EDD700FE85B0 /* normal.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.aif; sourceTree = "<group>"; };
+		03C06C401410EDD700FE85B0 /* reinsamba_gong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = reinsamba_gong.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,10 @@
 		03C06C271410ED4100FE85B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03C06C3D1410EDD700FE85B0 /* bell1.aif */,
+				03C06C3E1410EDD700FE85B0 /* high.aif */,
+				03C06C3F1410EDD700FE85B0 /* normal.aif */,
+				03C06C401410EDD700FE85B0 /* reinsamba_gong.aif */,
 				03C06C281410ED4100FE85B0 /* zazen-Info.plist */,
 				03C06C291410ED4100FE85B0 /* InfoPlist.strings */,
 				03C06C2C1410ED4100FE85B0 /* main.m */,
@@ -156,6 +168,10 @@
 				03C06C2B1410ED4100FE85B0 /* InfoPlist.strings in Resources */,
 				03C06C311410ED4100FE85B0 /* Credits.rtf in Resources */,
 				03C06C371410ED4100FE85B0 /* MainMenu.xib in Resources */,
+				03C06C411410EDD700FE85B0 /* bell1.aif in Resources */,
+				03C06C421410EDD700FE85B0 /* high.aif in Resources */,
+				03C06C431410EDD700FE85B0 /* normal.aif in Resources */,
+				03C06C441410EDD700FE85B0 /* reinsamba_gong.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

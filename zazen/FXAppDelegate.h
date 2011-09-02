@@ -11,5 +11,9 @@
 @interface FXAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (strong) IBOutlet NSWindow *window;
+@property (strong) IBOutlet NSProgressIndicator *progressIndicator;
+
+- (IBAction)startTimer:(id)sender;
+- (IBAction)stopTimer:(id)sender;
 
 @end
