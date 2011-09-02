@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C06C211410ED4100FE85B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C06C201410ED4100FE85B0 /* Cocoa.framework */; };
+		03C06C2B1410ED4100FE85B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C291410ED4100FE85B0 /* InfoPlist.strings */; };
+		03C06C2D1410ED4100FE85B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C06C2C1410ED4100FE85B0 /* main.m */; };
+		03C06C311410ED4100FE85B0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C2F1410ED4100FE85B0 /* Credits.rtf */; };
+		03C06C341410ED4100FE85B0 /* FXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C06C331410ED4100FE85B0 /* FXAppDelegate.m */; };
+		03C06C371410ED4100FE85B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C06C351410ED4100FE85B0 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C06C1C1410ED4100FE85B0 /* zazen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zazen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C06C201410ED4100FE85B0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03C06C231410ED4100FE85B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03C06C241410ED4100FE85B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03C06C251410ED4100FE85B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03C06C281410ED4100FE85B0 /* zazen-Info.plist */ = {isa = PBXFileReference; path = "zazen-Info.plist"; sourceTree = "<group>"; };
+		03C06C2A1410ED4100FE85B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03C06C2C1410ED4100FE85B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C06C2E1410ED4100FE85B0 /* zazen-Prefix.pch */ = {isa = PBXFileReference; path = "zazen-Prefix.pch"; sourceTree = "<group>"; };
+		03C06C301410ED4100FE85B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03C06C321410ED4100FE85B0 /* FXAppDelegate.h */ = {isa = PBXFileReference; path = FXAppDelegate.h; sourceTree = "<group>"; };
+		03C06C331410ED4100FE85B0 /* FXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXAppDelegate.m; sourceTree = "<group>"; };
+		03C06C361410ED4100FE85B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C06C191410ED4100FE85B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C06C211410ED4100FE85B0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C06C111410ED4000FE85B0 = {
+			isa = PBXGroup;
+			children = (
+				03C06C261410ED4100FE85B0 /* zazen */,
+				03C06C1F1410ED4100FE85B0 /* Frameworks */,
+				03C06C1D1410ED4100FE85B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C06C1D1410ED4100FE85B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C06C1C1410ED4100FE85B0 /* zazen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C06C1F1410ED4100FE85B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C06C201410ED4100FE85B0 /* Cocoa.framework */,
+				03C06C221410ED4100FE85B0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03C06C221410ED4100FE85B0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C06C231410ED4100FE85B0 /* AppKit.framework */,
+				03C06C241410ED4100FE85B0 /* CoreData.framework */,
+				03C06C251410ED4100FE85B0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03C06C261410ED4100FE85B0 /* zazen */ = {
+			isa = PBXGroup;
+			children = (
+				03C06C321410ED4100FE85B0 /* FXAppDelegate.h */,
+				03C06C331410ED4100FE85B0 /* FXAppDelegate.m */,
+				03C06C351410ED4100FE85B0 /* MainMenu.xib */,
+				03C06C271410ED4100FE85B0 /* Supporting Files */,
+			);
+			path = zazen;
+			sourceTree = "<group>";
+		};
+		03C06C271410ED4100FE85B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C06C281410ED4100FE85B0 /* zazen-Info.plist */,
+				03C06C291410ED4100FE85B0 /* InfoPlist.strings */,
+				03C06C2C1410ED4100FE85B0 /* main.m */,
+				03C06C2E1410ED4100FE85B0 /* zazen-Prefix.pch */,
+				03C06C2F1410ED4100FE85B0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C06C1B1410ED4100FE85B0 /* zazen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C06C3A1410ED4100FE85B0 /* Build configuration list for PBXNativeTarget "zazen" */;
+			buildPhases = (
+				03C06C181410ED4100FE85B0 /* Sources */,
+				03C06C191410ED4100FE85B0 /* Frameworks */,
+				03C06C1A1410ED4100FE85B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zazen;
+			productName = zazen;
+			productReference = 03C06C1C1410ED4100FE85B0 /* zazen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C06C131410ED4000FE85B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Flux Forge";
+			};
+			buildConfigurationList = 03C06C161410ED4000FE85B0 /* Build configuration list for PBXProject "zazen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03C06C111410ED4000FE85B0;
+			productRefGroup = 03C06C1D1410ED4100FE85B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C06C1B1410ED4100FE85B0 /* zazen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C06C1A1410ED4100FE85B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C06C2B1410ED4100FE85B0 /* InfoPlist.strings in Resources */,
+				03C06C311410ED4100FE85B0 /* Credits.rtf in Resources */,
+				03C06C371410ED4100FE85B0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C06C181410ED4100FE85B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C06C2D1410ED4100FE85B0 /* main.m in Sources */,
+				03C06C341410ED4100FE85B0 /* FXAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03C06C291410ED4100FE85B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C06C2A1410ED4100FE85B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03C06C2F1410ED4100FE85B0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C06C301410ED4100FE85B0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03C06C351410ED4100FE85B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C06C361410ED4100FE85B0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C06C381410ED4100FE85B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03C06C391410ED4100FE85B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03C06C3B1410ED4100FE85B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zazen/zazen-Prefix.pch";
+				INFOPLIST_FILE = "zazen/zazen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03C06C3C1410ED4100FE85B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zazen/zazen-Prefix.pch";
+				INFOPLIST_FILE = "zazen/zazen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C06C161410ED4000FE85B0 /* Build configuration list for PBXProject "zazen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C06C381410ED4100FE85B0 /* Debug */,
+				03C06C391410ED4100FE85B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C06C3A1410ED4100FE85B0 /* Build configuration list for PBXNativeTarget "zazen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C06C3B1410ED4100FE85B0 /* Debug */,
+				03C06C3C1410ED4100FE85B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C06C131410ED4000FE85B0 /* Project object */;
+}
