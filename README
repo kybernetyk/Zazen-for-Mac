@@ -1,0 +1,9 @@
+Simple super stupid tool for Mac OS X that plays a zen bell (mindfullness bell) every N seconds. I'm pretty sure I don't get the concept as I play the gong every 60 seconds but it helps me focus when reading boring stuff.
+
+Change the kGongInterval constant in AppDelegate.m to control the ... well ... gong interval.
+
+Caution: Uses ARC ... don't compile without ARC support or you will probabyl leak memory.
+
+License GPL3
+(c) Leon Szpilewski [code]
+(c) don't know - stolen from the internet [gong audioclip]
